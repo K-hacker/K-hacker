@@ -1,0 +1,13 @@
+# python turtle code 10
+# beautiful design in python
+import turtle
+t=turtle.Turtle()
+s=turtle.Screen()
+s.bgcolor('white')
+t.width(1)
+t.speed(25)
+col=('magenta','red','green','blue','yellow','black','orange')
+for i in range(500):
+  t.pencolor(col[i%7])
+  t.forward(i*4)
+  t.right(121)
